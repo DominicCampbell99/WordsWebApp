@@ -1,0 +1,6 @@
+@words_web_backend_HostAddress = http://localhost:5261
+
+GET {{words_web_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Rg8O1aJL3ekXyfEmeK7SuBZVo7GT9t4aaCWmd61B1GM=",
+  "Source": "words-web-backend",
+  "BasePath": "_content/words-web-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

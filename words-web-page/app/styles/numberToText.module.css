@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 40px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+.borderbox {
+    border: 4px solid #eeeeeea6;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.formField {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.formField:focus {
+    outline: none; /* Remove focus outline */
+    border: none;
+    border-bottom: 2px solid black; /* Add bottom border */
+}
+
+.error {
+    border-bottom: 2px solid red;
+}
+.formLabel {
+    position: absolute;
+    top: 0;
+    display: block;
+    font-size: 1rem;
+    color: black;
+}
+
+
+.button {
+    border-radius: 6px;
+    width: 100px;
+    color: white;
+    background-color: #5C6370;
+}
+
+.translation {
+    display: block;
+    width: 400px;
+    padding-left: 40px;
+    
+}
+
+.errorblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 50px;
+
+}
